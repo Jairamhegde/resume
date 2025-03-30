@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(/font/Poppins-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+    
+    
+}
+body{
+    background-color: #d4dbeb;
+    color: #ffffff;
+    height: 3000px;
+}   
+/* navbar-------------------------------- */
+
+
+nav
+{
+    display: flex;
+    position: fixed;
+    background-color: #b6d7e3 ;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    padding-left: 90px;
+    padding-right: 60px;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+.top-name{
+    color: #340561;
+    font-size: 1.3rem;
+}
+.hegde{
+    color:#340561;
+}
+.nav-contact{
+    font-size: .8rem;
+}
+    
+
+
+
+
+
+
+nav ul{
+    display: flex;
+    width: 250px;
+    text-decoration: none;
+    text-decoration-line: none;
+    align-items: center;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+nav ul a{
+    display: flex;
+    
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+    text-decoration-line: none;
+    height: 10px;
+
+    
+}
+nav ul a:hover{
+    opacity: 0.8;
+    border-radius: 3px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 26px;
+    font-size: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    
+    font-weight: bold;
+    
+}
+nav a:hover{
+    transform: scale(1.03);
+    transition: .2s ease;
+    
+    
+    border-bottom: #d4dbeb;
+    border-bottom-width: 1rem;
+    
+}

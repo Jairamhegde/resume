@@ -1,0 +1,85 @@
+.sectionprojects{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 187px;
+    margin-bottom: 15px;
+}
+
+.allproject-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 5px;
+
+}
+
+.project-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-color: black;
+    background-color:#b6d7e3;
+
+    border-radius: 8px;
+    
+
+    align-items: center;
+
+}
+.project-card :hover {
+    
+    cursor: pointer;
+    
+
+    
+
+}
+
+.project-card-div {
+    border-top-left-radius: 8px;
+
+
+}
+
+.project-card-img {
+
+    width: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+
+}
+
+.buttons {}
+
+.nameofproject {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #340561;
+}
+
+.descreptionp {
+    font-size: 0.7rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.github {
+    font-size: 0.6rem;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #340561;
+    padding: 5px;
+    background-color: #340561;
+    color: white;
+    margin-bottom: 15px;
+
+}

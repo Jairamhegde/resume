@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Black.ttf);
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 168px;
+    align-items: center;
+    
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    column-gap: 30px;
+
+}
+.right{
+    border-width: 4px;
+    border-color: aqua;
+
+}
+.img{
+    width: 371px;
+    height: 365px;
+    border-radius: 300px;
+    object-fit:cover;
+    object-position: top;
+    border-width: 4px;
+    border-color: aqua;
+    
+    
+
+}
+.paragraph{
+    font-size: 3rem;
+    color: #340561;
+    font-family: roboto;
+    
+}
+.sub-paragraph{
+    font-size: .9rem;
+    color: rgb(90, 86, 86);
+}
+.name{
+    font-weight: bold;
+    color:#340561 ;
+    font-size: 2.5rem;
+}
+.name-left{
+    font-weight: bold;
+    color: rgb(131, 61, 159);
+}
+.contacts{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+.contact-img{
+    width: 30px;
+    margin-right: 25px;
+    align-items: center;
+    
+}
+.contacts a :hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: .4s ease;
+    
+}
+
+.resume-button{
+    color: white;
+    background-color: #340561;
+    padding: 8px;
+    border-radius: 8px;
+    border-color:#340561;
+    border-style: solid;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.resume-button:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+
+ /*skils section  ------------------------*/

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cards.css">
+    <style>
+        .allproject-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 10px;
+            column-gap: 5px;
+
+        }
+
+        .project-card {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            border-color: black;
+            background-color: rgb(118, 118, 165);
+            border-radius: 8px;
+            
+
+            align-items: center;
+
+        }
+        .project-card :hover {
+            
+            cursor: pointer;
+            
+
+            
+
+        }
+
+        .project-card-div {
+            border-top-left-radius: 8px;
+
+
+        }
+
+        .project-card-img {
+
+            width: 100%;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+
+
+        }
+
+        .buttons {}
+
+        .nameofproject {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+
+        .descreptionp {
+            font-size: 0.8rem;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .github {
+            font-size: 0.6rem;
+
+            border-radius: 5px;
+            border-style: solid;
+            border-color: #288de0;
+            padding: 5px;
+            background-color: #288de0;
+            color: white;
+            margin-bottom: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sectionprojects">
+        <div class="allproject-cards">
+            <div class="project-card">
+                <div class="project-card-div">
+                    <img class="project-card-img" src="profiles/vegitables.jpg" alt="">
+                </div>
+                <div class="descreption-project">
+                    <p class="nameofproject">Veg Mart(vegitable shop recipt printer)</p>
+                    <p class="descreptionp">It is basically a vegitable management system currently iam working on,which
+                        takes the items name and the quantity and will generates the final bill including items price,total
+                        price and grand total.i am working on this project to ad more features.</p>
+                </div>
+                <div class="buttons">
+                    <button class="github">GitHub</button>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="project-card-div">
+                    <img class="project-card-img" src="profiles/Screenshot (40).png" alt="">
+                </div>
+                <div class="descreption-project">
+                    <p class="nameofproject">Kon banega crorepati(Quizz)</p>
+                    <p class="descreptionp">This quizz project is designed using python and GUI module of the python
+                        Tkinter.it will display the question and the options for the questions which we can select one of
+                        the option,if it becomes right it will display the ammount you win .if it becomes wrong it will stop and display total ammont you win</p>
+                </div>
+                <div class="buttons">
+                    <button class="github">GitHub</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card-div">
+                    <img class="project-card-img" src="profiles/bot.png" alt="">
+                </div>
+                <div class="descreption-project">
+                    <p class="nameofproject">Chatbot</p>
+                    <p class="descreptionp">This is a chatbot designed using python were we can perform 3 operations
+                        chat,train and exit.we can train the bot to several question and than we can chat with the bot</p>
+                </div>
+                <div class="buttons">
+                    <button class="github">GitHub</button>
+                </div>
+            </div>
+           >
+    
+    
+    
+        </div>
+
+    </section>
+   
+
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+.section4{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20rem;
+    background-color:;
+    border-radius: 4px;
+    justify-content: center;
+    
+
+}
+.Others-div{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #340561;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.all-others{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 15px;
+}
+.education-div{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    
+   
+
+    padding: 15px;;
+}
+.education-div h4{
+    color:#340561 ;
+    font-size: 1rem;
+}
+.education-div h2{
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #565686;
+    
+}
+.certifications{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    
+
+    padding: 15px;;
+}
+.certifications ul{
+
+    display: flex;
+    flex-direction: column;
+    text-decoration: dotted;
+    font-size: 0.8rem;
+}
+.certifications p{
+    font-weight:bold;
+    
+
+    color: #340561;
+}
+.certifications ul{
+    
+
+
+    color: #565686;
+}
+.languages-div{
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+   
+}
+.languages-div ul{
+    color: #565686;
+    padding-left: 30px;
+}
+.languages-div p{
+    color: #340561;
+    font-weight: bold;
+}
+.hobbies-div{
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+   
+}
+.hobbies-div ul{
+    color: #565686;
+    padding-left: 30px;
+}
+.hobbies-div p{
+    color: #340561;
+    font-weight: bold;
+}
+
+

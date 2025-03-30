@@ -1,0 +1,137 @@
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Black.ttf);
+}
+
+.section2{
+    margin-top: 10rem;
+}
+/* .second-main{
+    display: flex;
+    width: 300px;
+    background-color: #ececf4;
+    
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius:4px
+
+}
+
+
+    
+
+.overlay{
+    background-color: #d4dbeb;
+    padding: 5px ;
+    border-radius:6px
+}
+
+
+
+.profileimage-div{
+    width: 150px;
+    height: 150px;
+    padding:0 45px 
+    
+}
+.profileimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.descreption h3{
+    font-weight: bold;
+    
+    color: #340561;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    
+
+}
+.descreption{
+    padding: 0 10px
+    
+    
+}
+.descreption p{
+    font-size: 12px;
+    color: #737171;
+   ;
+    margin-bottom: 10px;
+}
+.i{
+    padding:4px;
+    background-color:  #d4dbeb;
+    border-radius: 5px;
+}
+.skills-img{
+    width: 100%;
+}
+
+
+
+
+.skills-text{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.skils-text-div{
+
+    margin-top: 20px;
+}
+.skils-text-div p{
+
+    color: #340561;
+}
+ 
+ 
+.allcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    padding: 20px;
+   
+
+    
+}
+.container{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+} */
+.section2 h3{
+    text-align: center;
+    font-size: 2rem;
+    color:#340561 ;
+}
+.all-container{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    background-color: #b6d7e3;
+    border-radius: .6rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.all-container:hover{
+    transform: scale(1.01);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.all-container h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+
+}

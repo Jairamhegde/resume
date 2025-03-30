@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contact-form{
+            text-align: center;
+            padding-left: 20rem;
+            padding-right: 20rem;
+            
+        }
+        .contact-form h3{
+            
+            color: rgb(0, 0, 0);
+        }
+        .contact-form form{
+            text-align: center;
+            
+            max-width: 500px;
+        }
+        .input-info{
+            flex-direction: column;
+            display: flex;
+            
+            justify-content: center;
+        }
+        .input-info input,.input-info textarea{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            border-radius: .5rem;
+            border-style: solid;
+        }
+        form  textarea{
+            width: 100%;
+            border-radius: .5rem;
+            padding: 10px;
+            border-style: solid;
+        }
+        .submit{
+            background-color: #091936;
+            border-color: #091936;
+            border-style: solid;
+            color: white;
+            padding: 8px;
+            border-radius: .5rem;
+            margin: 10px;
+            
+
+        }
+        .submit:hover{
+            
+            cursor: pointer;
+            opacity: .9;
+            transition: .3s;
+            transform: scale(1.05);
+        }
+        .contacts{
+            height: 30px;
+            background-color: black;
+            width: 100%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <section class="contact-form">
+        <h3 class=>Contact me</h3>
+        <form action="#">
+            <div class="input-info">
+                <input type="text" placeholder="Name">
+                <input type="number" placeholder="Phone number">
+                <input type="email" placeholder="Email">
+
+            </div>
+            
+            <textarea name="" id="" rows="10" >Your Message</textarea>
+            <input class="submit"  type="submit" value="Send Message" class="btn-1">
+        </form>
+        <div class="contacts">
+            2025 All right recieved
+            
+        </div>
+                
+        
+    </section>
+    
+</body>
+</html>
