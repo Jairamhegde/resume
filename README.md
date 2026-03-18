@@ -9,7 +9,7 @@ Features
 * Organized sections (About, Skills, Projects, Contact)
 * Lightweight and fast loading
 
-🛠️ Tech Stack
+Tech Stack
 * HTML5
 * CSS3
 
