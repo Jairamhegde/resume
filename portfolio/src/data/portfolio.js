@@ -13,8 +13,7 @@ export const profile = {
 
 export const contact = {
   email: "jairamhegde002@gmail.com",
-  // TODO: replace with your real LinkedIn profile URL.
-  linkedin: "https://www.linkedin.com/in/jairamhegde",
+  linkedin: "https://www.linkedin.com/in/jairam-hegde-2508a4214/",
   github: "https://github.com/Jairamhegde",
 };
 
