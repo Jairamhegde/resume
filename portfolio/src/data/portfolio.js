@@ -24,7 +24,6 @@ export const sections = [
   { id: "work", label: "Work", heading: "Selected", emphasis: "work." },
   { id: "stack", label: "Stack", heading: "Tech", emphasis: "stack." },
   { id: "education", label: "Education", heading: "My", emphasis: "education." },
-  { id: "resume", label: "Resume", heading: "My", emphasis: "resume." },
   { id: "contact", label: "Contact", heading: "Get in", emphasis: "touch." },
 ];
 
@@ -119,20 +118,6 @@ export const coursework = [
   { name: "Generative AI & NLP", detail: "LLM architectures, prompt engineering, GenAI security" },
   { name: "Cloud Computing", detail: "AWS EC2, S3, CloudFront, RDS, VPC subnets" },
 ];
-
-// The PDF lives in `portfolio/public/`. To update it, replace that file
-// (keep the same name, or change `file` here to match).
-export const resume = {
-  file: "Jairam_Hegde_Resume.pdf",
-  downloadName: "Jairam_Hegde_Resume.pdf",
-  summary:
-    "A one-page overview of my education, skills and projects. Preview it here or download a copy.",
-  details: [
-    { label: "Format", value: "PDF" },
-    { label: "Length", value: "1 page" },
-    { label: "Size", value: "106 KB" },
-  ],
-};
 
 export const certifications = [
   { name: "AWS Fundamentals", issuer: "Infosys Springboard" },

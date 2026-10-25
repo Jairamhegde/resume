@@ -10,7 +10,6 @@ import {
   education,
   coursework,
   certifications,
-  resume,
 } from "./data/portfolio.js";
 import { useActiveSection } from "./hooks/useActiveSection.js";
 import Topbar from "./components/Topbar.jsx";
@@ -19,7 +18,6 @@ import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Stack from "./components/Stack.jsx";
 import Education from "./components/Education.jsx";
-import Resume from "./components/Resume.jsx";
 import Contact from "./components/Contact.jsx";
 
 export default function App() {
@@ -45,7 +43,6 @@ export default function App() {
           coursework={coursework}
           certifications={certifications}
         />
-        <Resume {...meta("resume")} resume={resume} />
       </main>
       <Contact {...meta("contact")} contact={contact} profile={profile} />
     </>
